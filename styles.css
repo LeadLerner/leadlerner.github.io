@@ -135,6 +135,11 @@ main {
     grid-column: 3 / 7;
 }
 
+#store-text {
+    grid-row: 6 / 11;
+    grid-column: 3 / 7;
+}
+
 #main-text p {
     outline: 1px solid;
     outline-color: #000;
@@ -156,6 +161,14 @@ footer {
 }
 
 #general-footer {
+    border: 2px solid #000;
+    border-top: 0px;
+    background-color: #D9D9D9;
+    grid-row: 9 / 10;
+    grid-column: 2 / 9;
+}
+
+#store-footer {
     border: 2px solid #000;
     border-top: 0px;
     background-color: #D9D9D9;
@@ -259,6 +272,13 @@ form {
     }
 
     #general-text {
+        grid-column: 3 / 7;
+        padding-top: 3em;
+        grid-row: 5/10;
+        margin: 0px 20px;
+    }
+
+    #store-text {
         grid-column: 3 / 7;
         padding-top: 3em;
         grid-row: 5/10;
